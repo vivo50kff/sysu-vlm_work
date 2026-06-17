@@ -46,9 +46,15 @@ Thumbs.db
 .coverage
 htmlcov/
 
+# 运行数据
+data/
+
 # 临时文件
 *.tmp
 *.temp
 temp/
 tmp/
+课件/
+*.jpg
 *.png
+*.webp

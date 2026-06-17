@@ -34,6 +34,7 @@ class ChatRequest(BaseModel):
     image_base64: Optional[str] = None  # base64编码的图片
     conversation_id: Optional[str] = None
     history: Optional[List[Dict[str, str]]] = None
+    image_type: Optional[str] = "natural_scene"  # natural_scene / document / slide / product
 
 
 class ChatResponse(BaseModel):
